@@ -12,6 +12,73 @@
   align-items: center;
 }
 
+.input_content {
+  display: flex;
+  flex-direction: column;
+}
+
+.input_content > input {
+  width: 800px;
+  height: 40px;
+  padding: 20px;
+  border-radius: 6px;
+  border: 1px solid #eaeaea;
+  color: #000;
+}
+
+.input_content > textarea {
+  width: 800px;
+  height: 100px;
+  margin-top: 30px;
+  border-radius: 6px;
+  border: 1px solid #eaeaea;
+  padding: 20px;
+  color: #000;
+}
+
+.input_content > button {
+  width: 800px;
+  height: 40px;
+  margin-top: 30px;
+  border-radius: 6px;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #eaeaea;
+  color: #000;
+  cursor: pointer;
+}
+
+.todo {
+  width: 800px;
+  padding: 10px;
+  height: 100px;
+  border-radius: 6px;
+  background-color: #eedada;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.todo > div {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.todo > div > h3 {
+  margin: 0px;
+  padding: 0px;
+}
+
+.todo > div > button {
+  width: 50px;
+  height: 30px;
+  border: none;
+  border-radius: 6px;
+  color: rgb(255, 255, 255)
+}
+
 .footer {
   display: flex;
   flex: 1;
